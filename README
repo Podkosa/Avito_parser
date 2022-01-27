@@ -1,0 +1,3 @@
+Simple Avito parser (requests+BeatifulSoup), with database integration (SQLite+SQLalchemy).
+Accepts url for Avito item page, parses it, additionally parses the Russian Central Bank site for current Euro exchange rate and adds the price in Euro, stores all the info in a database.
+Additionally can output the results in xlsx (xlsxwriter), html or pdf (fpdf).
